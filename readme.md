@@ -9,7 +9,7 @@ PJ1说明
 
 ## 作业提交
 ### Github地址
-https://github.com/taihuiyuan/SOFT130002_lab
+https://github.com/taihuiyuan/PJ1
 
 ### Github Pages 地址
 
