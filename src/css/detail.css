@@ -1,0 +1,83 @@
+.content{
+    width:100%;
+    height: 100%;
+    background: #f3f4f5;
+}
+.box {
+    max-width: 1400px;
+    position: relative;
+    padding: 30px 100px 40px 100px;
+    background: #f3f4f5;
+}
+.detail-left{
+    margin-top: 90px;
+    vertical-align: top;
+    text-align: left;
+    background: #f3f4f5;
+    width: 60%;
+}
+.img-wrap{
+    border-radius: 8px;
+    background: white;
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    line-height: 100px;
+}
+.img-wrap h1{
+    font-size: 1.5rem;
+    margin: 5% 5% 0;
+}
+.img-wrap img{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+}
+.detail-right{
+    right: 100px;
+    top: 120px;
+    white-space: normal;
+    position: absolute;
+    vertical-align: top;
+    text-align: left;
+    width: 30%;
+}
+.right-wrap{
+    border-radius: 8px;
+    background: white;
+    padding: 30px;
+}
+.detailbtn button{
+    width: 100%;
+    height: 45px;
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.detailbtn .collect{
+    font-size: 1rem;
+    margin-left: 0;
+}
+.details{
+    font-size: 1rem;
+    background: #f3f4f5;
+    margin-top: 40px;
+    padding: 20px;
+    line-height: 22px;
+}
+.details h3{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.details label{
+    width: 100%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
