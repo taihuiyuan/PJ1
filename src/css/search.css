@@ -1,16 +1,15 @@
 .content{
-    width:100%;
-    height: 100%;
-    padding-top: 5em;
+    width: 100%;
+    padding-top: 5vw;
 }
 .box{
-    width: 93.5%;
+    width: 93%;
     position: relative;
-    padding: 3% 3% 2%;
+    padding: 5vw 3.25% 5vw;
     background: white;
 }
 .title{
-    font-size: 14px;
+    font-size: 1vw;
     height: 30px;
     color: black;
     width: 100%;
@@ -33,55 +32,61 @@ span{
     position: relative;
     display: block;
     width: 100%;
-    min-height: 100px;
+    min-height: 10vw;
     line-height: 20px;
     border: 1px solid lightgrey;
 }
+
 .container label{
     position: relative;
     display: block;
-    margin-left: 20px;
-    margin-top: 15px;
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    font-size: 1vw;
 }
 .container input[name="text"]{
     width: 98%;
-    height: 30px;
+    height: 2vw;
     border-radius: 4px;
     border: 1px solid lightgrey;
 }
 .container textarea{
     width: 98%;
-    height: 7em;
+    height: 7vw;
     resize: none;
     border-radius: 4px;
     border: 1px solid lightgrey;
 }
 .container button{
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    width: 150px;
-    height: 45px;
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 15%;
+    height: 3vw;
     background-color: brown;
     border: none;
     color: white;
-    font-size: 1rem;
-    border-radius: 8px;
+    font-size: 1vw;
+    border-radius: 4px;
+}
+.container button svg{
+    width: 1vw;
+    height: 1vw;
 }
 .card{
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     width: 100%;
-    height: 200px;
+    height: 20vw;
 }
 .card .image{
     position: relative;
     float: left;
-    width: 180px;
-    height: 180px;
+    width: 20%;
+    height: 90%;
     text-align: center;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 1vw;
+    margin-left: 1vw;
     overflow: hidden;
 }
 .card .image img{
@@ -94,29 +99,64 @@ span{
 .card .text{
     position: relative;
     display: block;
-    width: 75%;
-    height: 100px;
+    width: 50%;
+    height: 15vw;
     float: left;
-    line-height: 25px;
-    margin-top: 40px;
-    margin-left: 5%;
+    line-height: 2vw;
+    margin-top: 1.6vw;
+    margin-left: 9%;
     text-align: left;
 }
 .card .text .p1{
-    font-size: 1.8rem;
-    margin-bottom: 18px;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    padding-top: 2vw;
 }
 .card .text .p2{
-    font-size: 0.9rem;
+    font-size: 1vw;
     overflow: hidden;
+    line-height: 3vw;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 .page{
+    font-size: 1vw;
     position: relative;
     display: inline-block;
     width: 100%;
     text-align: center;
+}
+@media (max-aspect-ratio: 6/5){
+    .container button{
+        width: 18%;
+        height: 5vw;
+    }
+    .container button svg{
+        width: 2vw;
+        height: 2vw;
+    }
+    .container input[name="text"]{
+        height: 5vw;
+    }
+    .container textarea{
+        height: 10vw;
+    }
+    .card{
+        height: 30vw;
+    }
+    .card .image{
+        width: 30%;
+        height: 90%;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+    }
+    .card .text .p1{
+        font-size: 4vw;
+    }
+    .card .text .p2{
+        font-size: 0.5vw;
+        line-height: 5vw;
+    }
 }
