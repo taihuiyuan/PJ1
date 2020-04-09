@@ -102,17 +102,14 @@ form{
         margin-bottom: 0;
     }
     .log-head .p1{
-        font-size: 4vw;
-        margin-top: 10%;
-    }
-    .log-content input {
-
+        font-size: 3.5vw;
+        margin-top: 8%;
     }
     .log-content .p2{
         font-size: 2vw;
     }
     .log-content input {
-        height: 5vw;
+        height: 4vw;
     }
     .log-foot input{
         height: 6vw;
